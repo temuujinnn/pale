@@ -4,6 +4,7 @@
   height: 5vh;
   background-color: aqua;
   flex-direction: row;
+  justify-content: space-between;
 }
 .Logo {
   justify-content: start;

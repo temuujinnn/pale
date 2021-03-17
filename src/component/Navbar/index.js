@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <div className={css.Container}>
         <div className={css.Logo}>Logo</div>
-        <div className={css.items}>items</div>
+        <div className={css.items}>items </div>
       </div>
     </div>
   );
