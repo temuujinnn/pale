@@ -9,6 +9,7 @@ const LoginPage = () => {
         <img  className = { css.img} src = {Background} alt ="zurag"/>
         <div className={css.logo}>logo</div>
         <div className = {css.form}>
+          <h1>Нэвтрэх</h1>
           <b>Таны нэр:</b>
             <input type="text" className={css.input} placeholder="Та нэвтрэх нэрээ бичнэ үү" />
            <b>Нууц үг:</b>  
