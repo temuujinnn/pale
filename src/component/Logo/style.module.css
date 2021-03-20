@@ -17,13 +17,11 @@
 .wrapper {
   display: flex;
   align-items: center;
-  background-color: yellowgreen;
   width: 100%;
-  justify-content: center;
 }
 .bigText {
-  font-size: 2em;
+  font-size: 10%;
 }
 .smallText {
-  font-size: 1.28em;
+  font-size: 5%;
 }
