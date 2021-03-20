@@ -26,7 +26,9 @@
   margin-left: 50%;
   margin-top: 10vh;
 }
-.form h1{
+.form p{
+  color: #363636;
+  font-size: 2rem;
   margin-top:2rem ;
   margin-bottom: 2rem;
 }
@@ -36,17 +38,19 @@
   position: absolute;
 }
 b{
-
-  margin-left: 1rem;
+  color: #363636;
+  margin-left: 0.5rem;
 }
 .input{
-  margin: 1rem;
+  margin: 0.5rem;
   width: 15rem;
   height: 2rem;
+  color: #363636;
 }
 
 .logo{
   position: absolute;
   height: 5vh;
   width: 70vh;
+  margin: 1rem;
 }

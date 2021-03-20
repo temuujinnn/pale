@@ -11,7 +11,7 @@ const LoginPage = () => {
           <Logo/>
           </div>
         <div className = {css.form}>
-          <h1>Нэвтрэх</h1>
+          <p>Нэвтрэх</p>
           <b>Таны нэр:</b>
             <input type="text" className={css.input} placeholder="Та нэвтрэх нэрээ бичнэ үү" />
            <b>Нууц үг:</b>  
