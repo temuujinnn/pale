@@ -9,10 +9,7 @@
   height: 10vh;
   flex-direction: row;
   justify-content: space-between;
-<<<<<<< HEAD
-=======
   margin-top: 10px;
->>>>>>> 04386918677758e1ba9882209908379d73fb77c0
 }
 .Logo {
   justify-content: start;
@@ -20,21 +17,11 @@
   padding-top: 0.8vh;
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-  margin-left: 8vw;
-=======
-
   margin-left: 6vw;
->>>>>>> 04386918677758e1ba9882209908379d73fb77c0
 }
 .items {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-  margin-right: 8vw;
-=======
-
   margin-right: 6vw;
->>>>>>> 04386918677758e1ba9882209908379d73fb77c0
 }
