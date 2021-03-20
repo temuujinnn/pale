@@ -11,7 +11,5 @@
 }
 .Category {
   display: flex;
-  height: 10vh;
-  width: 85%;
-  margin: auto;
+  background-color: aqua;
 }
