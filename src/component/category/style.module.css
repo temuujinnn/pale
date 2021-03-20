@@ -1,0 +1,9 @@
+.Container {
+  width: 100%;
+
+  height: 20vh;
+}
+.Card {
+  display: flex;
+  justify-content: space-evenly;
+}
