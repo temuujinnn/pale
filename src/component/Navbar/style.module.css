@@ -9,9 +9,3 @@
 .Logo {
   justify-content: start;
 }
-.items {
-  flex-direction: column;
-}
-.items ul li {
-  list-style: none;
-}
