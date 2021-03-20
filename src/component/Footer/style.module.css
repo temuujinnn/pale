@@ -4,14 +4,15 @@
   width: 100%;
   height: 4vh;
   flex-direction: column;
+  border-top: 1px solid black;
 }
 
-.line {
+/* .line {
   width: 100%;
   height: 1px;
   background-color: #4a4a4a;
   border: 1px solid black;
-}
+} */
 
 .text {
   padding-top: 1vh;
