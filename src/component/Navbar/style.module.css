@@ -9,18 +9,18 @@
   height: 10vh;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 2vh;
+  margin-top: 10px;
 }
 .Logo {
   display: flex;
   align-items: center;
-  background-color: brown;
-  margin-left: 3vh;
+
+  margin-left: 6vw;
 }
 .items {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
-  margin-right: 3vh;
+
+  margin-right: 6vw;
 }

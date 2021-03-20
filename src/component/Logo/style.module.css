@@ -19,15 +19,14 @@
 .wrapper {
   display: flex;
   align-items: center;
-  background-color: green;
 }
 .bigText {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
 }
 .smallText {
-  font-size: 1.4rem;
+  font-size: 1.28rem;
   margin: 0;
   padding: 0;
 }
