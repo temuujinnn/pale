@@ -19,7 +19,6 @@
 .wrapper {
   display: flex;
   align-items: center;
-  background-color: green;
 }
 .bigText {
   font-size: 2.2rem;
