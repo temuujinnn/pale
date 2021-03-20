@@ -26,4 +26,5 @@
 .Container:hover {
   width: 22%;
   height: 103%;
+  transition: 1.2s;
 }
