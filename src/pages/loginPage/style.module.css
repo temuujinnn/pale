@@ -9,7 +9,7 @@
   display: flex;
   width: 80vw;
   height: 80vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   /* align-items: center;
   justify-content: center; */
 }
@@ -24,12 +24,18 @@
   flex-direction: column;
   position: absolute;
   margin-left: 50%;
-  margin-top: 25vh;
+  margin-top: 10vh;
 }
 .form h1{
-  
+  margin-top:2rem ;
+  margin-bottom: 2rem;
+}
+.p{
+  align-items: end;
+  position: absolute;
 }
 b{
+
   margin-left: 1rem;
 }
 .input{

@@ -7,7 +7,7 @@ const LoginPage = () => {
     <div className = {css.all}>
       <div className={css.Container}>
         <img  className = { css.img} src = {Background} alt ="zurag"/>
-        <div className={css.logo}>
+         <div className={css.logo}>
           <Logo/>
           </div>
         <div className = {css.form}>
@@ -17,6 +17,7 @@ const LoginPage = () => {
            <b>Нууц үг:</b>  
             <input type="text" className={css.input} placeholder="Та нууц үгээ оруулна уу"/>
           </div>
+          <p className = {css.p}>Хэрвээ та анх удаа нэвтэрч байгаа бол мэдээллийн ажилтантай холбогдож бүртгүүлнэ үү.</p>
       </div>
     </div>
   );
