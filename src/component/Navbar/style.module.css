@@ -12,7 +12,8 @@
 }
 .Logo {
   justify-content: start;
-  padding-left: 20px;
+  padding-left: 0.8vw;
+  padding-top: 0.8vh;
 }
 .items {
   justify-content: end;
