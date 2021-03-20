@@ -14,7 +14,7 @@ function App() {
         <Route component={LoginPage} path="/loginpage" />
         <Route component={RegisterPage} path="/registerpage" />
         <Route component={SignUpPage} path="/signuppage" />
-        <Route component={Logo} path="/logo" />
+        <Route component={Logoih} path="/logo" />
       </BrowserRouter>
     </Fragment>
   );
