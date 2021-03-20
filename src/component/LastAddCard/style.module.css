@@ -1,0 +1,29 @@
+.Container {
+  width: 20%;
+  text-align: center;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0px 0 1px rgb(10 10 10 / 2%);
+}
+.img {
+  width: 100%;
+  height: 50%;
+}
+
+.Container div {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 0.2vw;
+}
+.Text {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Container:hover {
+  width: 22%;
+  height: 103%;
+}

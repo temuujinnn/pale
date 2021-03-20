@@ -7,8 +7,9 @@ const Navbar = () => {
     <div>
       <div className={css.Container}>
         <div className={css.Logo}>
-          <Logo />
+          <Logo className={css.realLogo} />
         </div>
+
         <div className={css.items}>
           <NavItem />
         </div>
