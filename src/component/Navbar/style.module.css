@@ -10,5 +10,8 @@
   justify-content: start;
 }
 .items {
-  justify-content: end;
+  flex-direction: column;
+}
+.items ul li {
+  list-style: none;
 }
