@@ -5,7 +5,7 @@
   font-size: 62.5%;
 }
 .logo {
-  height: 7.5vh;
+  height: 9vh;
   width: auto;
 }
 .myText {
@@ -19,7 +19,7 @@
 .wrapper {
   display: flex;
   align-items: center;
-  width: 100%;
+  background-color: green;
 }
 .bigText {
   font-size: 2.2rem;
