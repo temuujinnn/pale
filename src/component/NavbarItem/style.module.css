@@ -1,7 +1,6 @@
 .Container {
   display: flex;
   flex-direction: row;
-  padding-top: 15px;
   justify-content: space-evenly;
 }
 
