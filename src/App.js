@@ -5,6 +5,7 @@ import HomePage from "./pages/homePage";
 import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/registerPage";
 import SignUpPage from "./pages/signupPage";
+
 function App() {
   return (
     <Fragment>
@@ -13,7 +14,7 @@ function App() {
         <Route component={LoginPage} path="/loginpage" />
         <Route component={RegisterPage} path="/registerpage" />
         <Route component={SignUpPage} path="/signuppage" />
-        <Route component={Logo} path="/logo" />
+        <Route component={Logoih} path="/logo" />
       </BrowserRouter>
     </Fragment>
   );
