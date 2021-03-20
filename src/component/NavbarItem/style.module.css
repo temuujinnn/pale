@@ -3,7 +3,9 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
-
-.Container div {
-  padding-left: 30px;
+.Link {
+  padding-left: 3vh;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
 }
