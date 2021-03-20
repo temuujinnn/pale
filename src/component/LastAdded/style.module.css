@@ -1,0 +1,9 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  font-size: 2rem;
+  justify-content: space-evenly;
+}

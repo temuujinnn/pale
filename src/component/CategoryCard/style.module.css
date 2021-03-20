@@ -1,13 +1,16 @@
 .img {
-  width: 8vw;
+  width: 6vw;
   height: 10vh;
 }
-
+.img:hover {
+  width: 7vw;
+  height: 12vh;
+}
 .textToo {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 .AmitanNer {
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-align: center;
 }

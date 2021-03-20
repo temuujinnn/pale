@@ -11,5 +11,24 @@
 }
 .Category {
   display: flex;
-  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+.BodyText {
+  width: 100%;
+  height: 100%;
+}
+.LastAdded {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+.Contact {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  width: 100%;
+  height: 100%;
 }

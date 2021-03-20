@@ -3,6 +3,10 @@ import Navbar from "../../component/Navbar";
 import Main from "../../component/main";
 import css from "./style.module.css";
 import Category from "../../component/category";
+import BodyText from "../../component/bodyText";
+import LastAdded from "../../component/LastAdded";
+import Contact from "../../component/Contact";
+import Footer from "../../component/Footer";
 const HomePage = () => {
   return (
     <div className={css.Container}>
@@ -14,6 +18,18 @@ const HomePage = () => {
       </div>
       <div className={css.Category}>
         <Category />
+      </div>
+      <div className={css.BodyText}>
+        <BodyText />
+      </div>
+      <div className={css.LastAdded}>
+        <LastAdded />
+      </div>
+      <div className={css.Contact}>
+        <Contact />
+      </div>
+      <div className={css.footer}>
+        <Footer />
       </div>
     </div>
   );
