@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       <div className={css.Container}>
-        <div className={css.Logo}>Logo sda nabaaaa</div>
+        <div className={css.Logo}>Logo sda nabaaaa jhbvlhkvui</div>
         <div className={css.items}>
           <NavItem />
         </div>
