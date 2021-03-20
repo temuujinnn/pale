@@ -10,12 +10,17 @@ import Footer from "../../component/Footer";
 const HomePage = () => {
   return (
     <div className={css.Container}>
-      <div className={css.Nav}>
-        <Navbar />
-      </div>
       <div className={css.main}>
         <Main />
       </div>
+      <div className={css.Nav}>
+        <Navbar />
+      </div>
+
+      <div className={css.layer}>
+        <b>temka sda</b>
+      </div>
+
       <div className={css.Category}>
         <Category />
       </div>
