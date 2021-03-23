@@ -1,10 +1,9 @@
 .Container {
   display: flex;
-<<<<<<< HEAD
+
   height: auto;
-=======
+
   height: 30%;
->>>>>>> d89a2a8af37932c2f044722a7c55245f29fdc2fb
   font-size: 2rem;
   justify-content: space-evenly;
   width: 100%;
