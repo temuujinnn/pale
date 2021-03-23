@@ -6,6 +6,7 @@ import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/registerPage";
 import SignUpPage from "./pages/signupPage";
 import LastAdded from "./component/LastAdded";
+import Contact from "./component/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route component={LastAdded} path="/lastadded" />
         <Route component={SignUpPage} path="/signuppage" />
         <Route component={Logo} path="/logo" />
+        <Route component={Contact} path="/contact" />
       </BrowserRouter>
     </Fragment>
   );
