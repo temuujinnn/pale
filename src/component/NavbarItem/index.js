@@ -7,7 +7,7 @@ const NavItem = () => {
       <Link className={css.Link} to="/loginpage">
         Төрөл
       </Link>
-      <Link className={css.Link} to="/loginpage">
+      <Link className={css.Link} to="/adminpanel">
         Танилцуулга
       </Link>
       <Link className={css.Link} to="/lastadded">
