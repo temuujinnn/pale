@@ -7,6 +7,7 @@ import BodyText from "../../component/bodyText";
 import LastAdded from "../../component/LastAdded";
 import Contact from "../../component/Contact";
 import Footer from "../../component/Footer";
+
 const HomePage = () => {
   return (
     <div className={css.Container}>
@@ -18,7 +19,11 @@ const HomePage = () => {
       </div>
 
       <div className={css.layer}>
-        <b>temka sda</b>
+        <p className={css.middleText}>
+          Монгол улсын шинжлэх ухааны академи <br /> Палеонтологийн хүрээлэн
+        </p>
+        <p className={css.san}>бүртгэлийн нэгдсэн сан</p>
+        <button className={css.Bttn}>Нэвтрэх</button>
       </div>
 
       <div className={css.Category}>

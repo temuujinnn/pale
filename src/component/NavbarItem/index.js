@@ -10,7 +10,7 @@ const NavItem = () => {
       <Link className={css.Link} to="/loginpage">
         Танилцуулга
       </Link>
-      <Link className={css.Link} to="/loginpage">
+      <Link className={css.Link} to="/lastadded">
         Сүүлд нэмэгдсэн
       </Link>
       <Link className={css.Link} to="/loginpage">

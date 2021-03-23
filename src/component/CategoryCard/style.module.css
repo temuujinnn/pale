@@ -5,6 +5,7 @@
 .img:hover {
   width: 7vw;
   height: 12vh;
+  transition: 1.2s;
 }
 .textToo {
   text-align: center;

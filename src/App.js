@@ -5,6 +5,7 @@ import HomePage from "./pages/homePage";
 import LoginPage from "./pages/loginPage";
 import RegisterPage from "./pages/registerPage";
 import SignUpPage from "./pages/signupPage";
+import LastAdded from "./component/LastAdded";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Route component={HomePage} path="/" exact />
         <Route component={LoginPage} path="/loginpage" />
-        <Route component={RegisterPage} path="/registerpage" />
+        <Route component={LastAdded} path="/lastadded" />
         <Route component={SignUpPage} path="/signuppage" />
         <Route component={Logo} path="/logo" />
       </BrowserRouter>
