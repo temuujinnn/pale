@@ -1,13 +1,16 @@
 .Container {
   display: flex;
+<<<<<<< HEAD
   height: auto;
+=======
+  height: 30%;
+>>>>>>> d89a2a8af37932c2f044722a7c55245f29fdc2fb
   font-size: 2rem;
   justify-content: space-evenly;
   width: 100%;
 }
 .garchig {
   font-size: 2.2rem;
-  padding-top: 1.2vw;
   color: #363636;
 }
 .text {

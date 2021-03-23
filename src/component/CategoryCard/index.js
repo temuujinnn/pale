@@ -3,7 +3,7 @@ import css from "./style.module.css";
 
 const CategoryCard = (props) => {
   return (
-    <div className={css.Contaner}>
+    <div className={css.Container}>
       <div>
         <img className={css.img} src={props.sda} alt="c1" />
         <div className={css.textToo}>{props.number}</div>
