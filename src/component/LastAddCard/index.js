@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./style.module.css";
-import ScrollAnimation from "react-animate-on-scroll";
 
 const LastAddCard = (props) => {
   return (
@@ -9,9 +8,7 @@ const LastAddCard = (props) => {
       <div className={css.Text}>
         <div>Олдворын нэр:</div>
         <div>Бүртгэлийн дугаар:</div>
-        <div>Агууламж:</div>
-        <div>Сан хөмрөгийн байршил:</div>
-        <div>Тоо, дүрс:</div>
+        <div>Тоо, Ширхэг:</div>
       </div>
     </div>
   );
