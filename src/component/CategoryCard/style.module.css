@@ -3,6 +3,7 @@
   box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
   /* padding: 2px; */
   transition: 0.5s;
+  cursor: pointer;
 }
 .Container {
   padding: 0;

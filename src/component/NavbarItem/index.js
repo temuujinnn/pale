@@ -5,7 +5,6 @@ const NavItem = () => {
   return (
     <div className={css.Container}>
       <Link
-        activeClass="active"
         to="category"
         spy={true}
         smooth={true}
@@ -16,7 +15,6 @@ const NavItem = () => {
         Төрөл
       </Link>
       <Link
-        activeClass="active"
         to="bodytext"
         spy={true}
         smooth={true}
@@ -27,7 +25,6 @@ const NavItem = () => {
         Танилцуулга
       </Link>
       <Link
-        activeClass="active"
         to="lastadded"
         spy={true}
         smooth={true}
@@ -38,7 +35,6 @@ const NavItem = () => {
         Сүүлд нэмэгдсэн
       </Link>
       <Link
-        activeClass="active"
         to="contact"
         spy={true}
         smooth={true}
