@@ -9,7 +9,7 @@ const NavItem = () => {
         to="category"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-340}
         duration={500}
         className={css.Link}
       >
@@ -20,7 +20,7 @@ const NavItem = () => {
         to="bodytext"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-240}
         duration={500}
         className={css.Link}
       >
@@ -31,7 +31,7 @@ const NavItem = () => {
         to="lastadded"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-140}
         duration={500}
         className={css.Link}
       >
