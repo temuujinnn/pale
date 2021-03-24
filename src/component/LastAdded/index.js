@@ -13,7 +13,7 @@ const LastAdded = (props) => {
       animateOut={css.fadeOut}
       offset={css.offset}
     >
-      <div className={css.Container}>
+      <div className={css.Container} id="lastadded">
         <LastAddCard zurag={f1} />
         <LastAddCard zurag={f2} />
         <LastAddCard zurag={f3} />

@@ -2,12 +2,22 @@ import React from "react";
 import css from "./style.module.css";
 import NavItem from "../../component/NavbarItem";
 import Logo from "../Logo";
+import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div>
       <div className={css.Container}>
         <div className={css.Logo}>
-          <Logo className={css.realLogo} />
+          <Link
+            activeClass="active"
+            to="main"
+            spy={true}
+            smooth={true}
+            offset={7000}
+            duration={500}
+          >
+            <Logo className={css.realLogo} />
+          </Link>
         </div>
 
         <div className={css.items}>

@@ -11,7 +11,7 @@ import Logo7 from "../../img/c7.png";
 import Logo8 from "../../img/c8.png";
 const Category = (props) => {
   return (
-    <div className={css.Container}>
+    <div className={css.Container} id="category">
       <div className={css.Card}>
         <CategoryCard sda={Logo1} text="Үлэг Гүрвэл" number="956" />
         <CategoryCard sda={Logo2} text="Шувуу" number="811" />

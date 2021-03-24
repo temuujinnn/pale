@@ -3,7 +3,7 @@ import css from "./style.module.css";
 import fbLogo from "../../img/facebook-circular-logo.svg";
 const Contact = () => {
   return (
-    <div className={css.Container}>
+    <div className={css.Container} id="contact">
       <div className={css.holboos}>
         <h3 className={css.garchig}>Холбоос</h3>
         <p className={css.text}>Нүүр</p>

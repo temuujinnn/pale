@@ -1,19 +1,51 @@
 import React from "react";
 import css from "./style.module.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 const NavItem = () => {
   return (
     <div className={css.Container}>
-      <Link className={css.Link} to="/loginpage">
+      <Link
+        activeClass="active"
+        to="category"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+        className={css.Link}
+      >
         Төрөл
       </Link>
-      <Link className={css.Link} to="/adminpanel">
+      <Link
+        activeClass="active"
+        to="bodytext"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+        className={css.Link}
+      >
         Танилцуулга
       </Link>
-      <Link className={css.Link} to="/lastadded">
+      <Link
+        activeClass="active"
+        to="lastadded"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+        className={css.Link}
+      >
         Сүүлд нэмэгдсэн
       </Link>
-      <Link className={css.Link} to="/loginpage">
+      <Link
+        activeClass="active"
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+        className={css.Link}
+      >
         Холбоо барих
       </Link>
     </div>
