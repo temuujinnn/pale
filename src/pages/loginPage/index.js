@@ -1,23 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
 import css from "./style.module.css";
-import Background from "../../img/login.jpg"
-import Logo from "../../component/Logo"
+import Img from "../../img/login.jpg";
+import Logo from "../../component/Logo";
+import LoginInput from "../../component/loginInput";
+
 const LoginPage = () => {
   return (
-    <div className = {css.all}>
-      <div className={css.Container}>
-        <img  className = { css.img} src = {Background} alt ="zurag"/>
-         <div className={css.logo}>
-          <Logo/>
-          </div>
-        <div className = {css.form}>
-          <h1>Нэвтрэх</h1>
-          <b>Таны нэр:</b>
-            <input type="text" className={css.input} placeholder="Та нэвтрэх нэрээ бичнэ үү" />
-           <b>Нууц үг:</b>  
-            <input type="text" className={css.input} placeholder="Та нууц үгээ оруулна уу"/>
-          </div>
-          {/* <p className = {css.p}>Хэрвээ та анх удаа нэвтэрч байгаа бол мэдээллийн ажилтантай холбогдож бүртгүүлнэ үү.</p> */}
+    <div className={css.imageContainer}>
+      <img className={css.img} src={Img} alt="right" />
+      <div className={css.sda}></div>
+      <div className={css.input}>
+        <div className={css.form}>
+          <LoginInput />
+        </div>
       </div>
     </div>
   );

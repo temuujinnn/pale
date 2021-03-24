@@ -6,6 +6,7 @@ import LoginPage from "./pages/loginPage";
 import LastAdded from "./component/LastAdded";
 import Contact from "./component/Contact";
 import AdminPanel from "./pages/adminPanel";
+import LoginInput from "./component/loginInput";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route component={AdminPanel} path="/adminpanel" />
         <Route component={Logo} path="/logo" />
         <Route component={Contact} path="/contact" />
+        <Route component={LoginInput} path="/lgninput" />
       </BrowserRouter>
     </Fragment>
   );
