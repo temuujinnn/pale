@@ -26,7 +26,7 @@
 }
 
 .Container:hover {
-  width: 22%;
-  height: 103%;
-  transition: 1.2s;
+  box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+  margin: 5px;
+  transition: 0.5s;
 }
