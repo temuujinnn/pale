@@ -6,15 +6,18 @@ import LoginInput from "../../component/loginInput";
 
 const LoginPage = () => {
   return (
-    <div className={css.imageContainer}>
-      <img className={css.img} src={Img} alt="right" />
-      <div className={css.sda}></div>
-      <div className={css.input}>
+    <>
+      <div className={css.imageContainer}>
+        <img className={css.img} src={Img} alt="right" />
+        <div className={css.sda}></div>
+      </div>
+      <div className={css.layer}>
         <div className={css.form}>
           <LoginInput />
         </div>
+        <p>naba pro temka suga</p>
       </div>
-    </div>
+    </>
   );
 };
 export default LoginPage;

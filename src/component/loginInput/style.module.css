@@ -7,20 +7,18 @@
   box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
     0 0px 0 1px rgb(10 10 10 / 2%);
   border-radius: 5px;
-
   justify-content: space-around;
-  align-items: center;
+  padding: 10%;
 }
 .input {
-  width: 70%;
-  height: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 5px;
   border: 0.5px solid gray;
 }
 .check {
   display: flex;
-  justify-content: center;
-  height: 20%;
 }
 .Bttn {
   text-align: center;
@@ -32,6 +30,7 @@
   border-radius: 2vw;
   padding: 5px 15px;
   width: 20%;
-  height: 5%;
-  margin: auto;
+  padding: 5px;
+  margin-left: 40%;
+  margin-bottom: 10%;
 }
