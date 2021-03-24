@@ -1,12 +1,13 @@
 .Container:hover {
   /*border: 1px solid;*/
-  box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
-  padding: 2px;
+  box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
+  /* padding: 2px; */
   transition: 0.5s;
 }
 .Container {
   padding: 0;
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 .fadeIn {
