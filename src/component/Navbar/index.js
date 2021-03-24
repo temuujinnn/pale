@@ -13,7 +13,7 @@ const Navbar = () => {
             to="main"
             spy={true}
             smooth={true}
-            offset={7000}
+            offset={0}
             duration={500}
           >
             <Logo className={css.realLogo} />
