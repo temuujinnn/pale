@@ -7,6 +7,7 @@ import LastAdded from "./component/LastAdded";
 import Contact from "./component/Contact";
 import AdminPanel from "./pages/adminPanel";
 import LoginInput from "./component/loginInput";
+import SeeAll from "./pages/seeAllPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route component={Logo} path="/logo" />
         <Route component={Contact} path="/contact" />
         <Route component={LoginInput} path="/lgninput" />
+        <Route component={SeeAll} path="/seeall" />
       </BrowserRouter>
     </Fragment>
   );
