@@ -3,6 +3,7 @@ import css from "./style.module.css";
 import Navbar from "../../component/Navbar";
 import ResetIc from "../../img/reset.svg";
 import Dot from "../../img/three-dots-svgrepo-com.svg";
+import UserCard from "../../component/userCard";
 const AdminPanel = () => {
   return (
     <div className={css.Container}>
@@ -29,8 +30,25 @@ const AdminPanel = () => {
           <div className={css.option}>
             <img className={css.Dot} src={Dot} alt="dot" />
           </div>
-          <div className={css.middleContainer}> middle container</div>
         </div>
+        <div className={css.middleContainer}>
+          <div className={css.Text}>№</div>
+          <div className={css.Text}>Овог Нэр</div>
+          <div className={css.Text}>И-Мэйл</div>
+          <div className={css.Text}>Хэрэглэгч ID</div>
+          <div className={css.Text}>Утасны Дугаар</div>
+          <div className={css.Text}>Бүртгүүлсэн Огноо</div>
+        </div>
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+        <UserCard />
       </div>
     </div>
   );

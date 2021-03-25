@@ -11,8 +11,8 @@
 }
 .box {
   width: 70vw;
-  height: 100vh;
-  background-color: aqua;
+  height: 100%;
+  background-color: #f9f9f9;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -27,15 +27,6 @@
   width: 100%;
   height: 10%;
 }
-.flexContainer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 10vh;
-  font-size: 4rem;
-  justify-content: space-around;
-}
-
 .searchInput {
   font-family: FontAwesome;
   width: 45vw;
@@ -50,14 +41,40 @@
   border: none;
   border-radius: 1vh;
 }
+.Bttn:active {
+  background-color: aqua;
+}
+.Bttn:hover {
+  background-color: red;
+}
 .restart {
   align-items: center;
 }
 .img {
-  width: 3vw;
-  height: 4vh;
+  width: 1.5vw;
+  height: 2vh;
 }
 .Dot {
-  width: 3vw;
-  height: 4vh;
+  width: 1.5vw;
+  height: 2vh;
+}
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+.Text {
+  font-size: 2rem;
+  width: 16.6%;
+  padding-top: 1vh;
+}
+.Text1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.7rem;
+  width: 16.6%;
 }
