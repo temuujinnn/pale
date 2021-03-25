@@ -51,6 +51,9 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
+      <div className={css.footerText}>
+        ПАЛЕОНТОЛОГИЙН ХҮРЭЭЛЭН © 2021. Бүх эрх хуулиар хамгаалагдсан.
+      </div>
     </>
   );
 };
