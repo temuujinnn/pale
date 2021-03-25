@@ -24,7 +24,7 @@ const LoginPage = () => {
                 <input
                   className={css.input}
                   type="text"
-                  placeholder=" &#61447; Та нэвтрэх ID-аа бичнэ үү"
+                  placeholder=" &#61447;  Та нэвтрэх ID-аа бичнэ үү"
                 />
               </div>
               <div className={css.inputPass}>
@@ -32,7 +32,7 @@ const LoginPage = () => {
                 <input
                   className={css.input}
                   type="text"
-                  placeholder=" &#61475; Та нэвтрэх нууц үгээ оруулна уу"
+                  placeholder=" &#61475;  Та нэвтрэх нууц үгээ оруулна уу"
                 />
               </div>
               <div className={css.checkboxContainer}>
