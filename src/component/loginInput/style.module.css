@@ -1,36 +1,3 @@
-.box {
-  width: 100%;
-  height: 100%;
-  font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
-    0 0px 0 1px rgb(10 10 10 / 2%);
-  border-radius: 5px;
-  justify-content: space-around;
-  padding: 10%;
-}
-.input {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  border: 0.5px solid gray;
-}
-.check {
-  display: flex;
-}
-.Bttn {
-  text-align: center;
-  font-size: 1.2rem;
-  color: white;
-  border: none;
-  margin-top: 2vh;
-  background-color: #00d1b2;
-  border-radius: 2vw;
-  padding: 5px 15px;
-  width: 20%;
-  padding: 5px;
-  margin-left: 40%;
-  margin-bottom: 10%;
+.container {
+  background-color: red;
 }

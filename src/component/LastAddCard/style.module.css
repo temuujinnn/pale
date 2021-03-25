@@ -6,7 +6,7 @@
   box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
     0 0px 0 1px rgb(10 10 10 / 2%);
   border-radius: 5px;
-  transition: 0.6s;
+  transition: 0.3s;
 }
 .img {
   width: 100%;
@@ -28,6 +28,11 @@
 
 .Container:hover {
   box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
-  transition: 0.5s;
+  transition: 0.3s;
+  margin-top: -5px;
   cursor: pointer;
+}
+.Container:active {
+  transition: 0.3s;
+  margin-top: 0px;
 }

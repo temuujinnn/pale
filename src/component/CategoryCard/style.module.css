@@ -2,12 +2,17 @@
   /*border: 1px solid;*/
   box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
   /* padding: 2px; */
-  transition: 0.5s;
+  transition: 0.3s;
+  margin-top: -4px;
   cursor: pointer;
+}
+.Container:active {
+  margin-top: 0px;
+  transition: 0.3s;
 }
 .Container {
   padding: 0;
-  transition: 0.5s;
+  transition: 0.3s;
   border-radius: 5px;
 }
 

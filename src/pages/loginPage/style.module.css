@@ -1,32 +1,140 @@
-.sda {
-  width: 300px;
-  height: 652px;
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.sdaRight {
+  width: 13vw;
+  height: 460px;
   background-color: #f9f9f9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sdaLeft {
+  width: 13vw;
+  height: 460px;
+  background-color: #f9f9f9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .img {
-  width: 992px;
-  height: 652px;
+  width: 800px;
+  height: 460px;
 }
 .imageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100vh;
+  border-radius: 5px;
 }
-
 .layer {
+  width: 800px;
+  height: 460px;
+
   position: absolute;
   display: flex;
-  top: 50px;
-  background-color: aqua;
-  left: 120px;
-  justify-content: center;
-  width: 1292px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  padding: 10px 10px;
 
-  height: 652px;
+  height: 100px;
+  margin-left: -10vw;
+}
+.text {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
 .form {
+  height: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: -8vw;
+}
+.loginWindow {
+  height: 200px;
   width: 300px;
-  height: 30%;
+  margin-right: 100px;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray, -2px 0px 5px gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh;
+}
+.nevtreh {
+  margin-right: 340px;
+  margin-bottom: 1vh;
+}
+.input {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 1.5rem;
+  width: 100%;
+  font-family: FontAwesome;
+  margin-top: 1vh;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(196, 195, 195);
+}
+.input::placeholder {
+  color: gray;
+  font-size: 1.4rem;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1vh;
+  font-size: 2rem;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputName {
+  width: 100%;
+}
+.inputPass {
+  width: 100%;
+  margin-top: 2vh;
+}
+.small {
+  margin-left: 0.5vw;
+}
+.button {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+
+  background-color: #00d1b2;
+  border-radius: 2vw;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid #75f3e0;
+}
+.button:focus {
+  outline: none;
+}
+.button:hover {
+  background-color: #0aa58e;
+  transition: 0.2s;
+}
+.button:active {
+  background-color: #00d1b2;
 }

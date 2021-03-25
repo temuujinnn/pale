@@ -7,6 +7,7 @@ import BodyText from "../../component/bodyText";
 import LastAdded from "../../component/LastAdded";
 import Contact from "../../component/Contact";
 import Footer from "../../component/Footer";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -23,7 +24,9 @@ const HomePage = () => {
           Монгол улсын шинжлэх ухааны академи <br /> Палеонтологийн хүрээлэн
         </p>
         <p className={css.san}>бүртгэлийн нэгдсэн сан</p>
-        <button className={css.Bttn}>Нэвтрэх</button>
+        <Link to="loginpage">
+          <button className={css.Bttn}>Нэвтрэх</button>
+        </Link>
       </div>
 
       <div className={css.Category}>
