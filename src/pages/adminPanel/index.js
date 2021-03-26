@@ -14,17 +14,17 @@ const AdminPanel = (props) => {
   };
   return (
     <div className={css.Container}>
+      <Modal
+        isOpen={display}
+        shouldCloseOnOverlayClick={false}
+        onRequestClose={() => setDisplay(false)}
+      >
+        <ModalWindow close={close} />
+      </Modal>
       <div className={css.Nav}>
         <Navbar />
       </div>
       <div className={css.box}>
-        <Modal
-          isOpen={display}
-          shouldCloseOnOverlayClick={false}
-          onRequestClose={() => setDisplay(false)}
-        >
-          <ModalWindow close={close} />
-        </Modal>
         <div className={css.TopContainer}>
           <div className={css.search}>
             <input
