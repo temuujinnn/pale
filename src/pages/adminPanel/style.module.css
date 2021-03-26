@@ -21,6 +21,7 @@
 .TopContainer {
   font-size: 4rem;
   justify-content: space-evenly;
+  align-items: center;
   display: flex;
   flex-direction: row;
   margin-top: 4vh;
@@ -33,26 +34,43 @@
   height: 5vh;
   padding: 1vh;
   border-radius: 1vh;
+  border: 1px solid gray;
+}
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
 }
 .Bttn {
   width: 10vw;
   height: 5vh;
-  background-color: aquamarine;
-  border: none;
+  background-color: #00d1b2;
+  border: 0.5px solid #75f3e0;
+  color: white;
   border-radius: 1vh;
+  transition: 0.2s;
 }
-.Bttn:active {
-  background-color: aqua;
-}
+
 .Bttn:hover {
-  background-color: red;
+  background-color: #0aa58e;
+  transition: 0.2s;
+}
+
+.Bttn:active {
+  background-color: #00d1b2;
+}
+.Bttn:focus {
+  outline: none;
 }
 .restart {
-  align-items: center;
 }
+
 .img {
-  width: 1.5vw;
+  width: 3vw;
   height: 2vh;
+}
+.img:hover {
+  background-color: green;
 }
 .Dot {
   width: 1.5vw;

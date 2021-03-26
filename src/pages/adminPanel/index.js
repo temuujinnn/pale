@@ -42,7 +42,7 @@ const AdminPanel = (props) => {
               Хэрэглэгч Нэмэх
             </button>
           </div>
-          <div className={css.reastart}>
+          <div className={css.restart}>
             <img className={css.img} src={ResetIc} alt="icon" />
           </div>
           <div className={css.option}>
