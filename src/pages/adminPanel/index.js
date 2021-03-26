@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./style.module.css";
 import Navbar from "../../component/Navbar";
 import ResetIc from "../../img/reset.svg";
 import Dot from "../../img/three-dots-svgrepo-com.svg";
 import UserCard from "../../component/userCard";
-const AdminPanel = () => {
+import ModalWindow from "../../component/Modal";
+import Modal from "react-modal";
+// Modal.setAppElement("#");
+const AdminPanel = (props) => {
+  const [display, setDisplay] = useState(false);
+  const close = () => {
+    setDisplay(false);
+  };
   return (
     <div className={css.Container}>
       <div className={css.Nav}>
         <Navbar />
       </div>
       <div className={css.box}>
+        <Modal
+          isOpen={display}
+          shouldCloseOnOverlayClick={false}
+          onRequestClose={() => setDisplay(false)}
+        >
+          <ModalWindow close={close} />
+        </Modal>
         <div className={css.TopContainer}>
           <div className={css.search}>
             <input
@@ -20,8 +34,12 @@ const AdminPanel = () => {
             ></input>
           </div>
           <div className={css.add}>
-            <button className={css.Bttn} type="submit">
-              Хэрэглэгч нэмэх
+            <button
+              onClick={() => setDisplay(true)}
+              className={css.Bttn}
+              type="submit"
+            >
+              Хэрэглэгч Нэмэх
             </button>
           </div>
           <div className={css.reastart}>
@@ -53,4 +71,5 @@ const AdminPanel = () => {
     </div>
   );
 };
+
 export default AdminPanel;
