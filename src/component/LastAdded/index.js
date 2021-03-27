@@ -1,4 +1,6 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
+
 import LastAddCard from "../LastAddCard";
 import css from "./style.module.css";
 import f1 from "../../img/f1.jpg";
@@ -10,6 +12,11 @@ import { HiArrowCircleDown } from "react-icons/hi";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 
 const LastAdded = (props) => {
+  let history = useHistory();
+
+  const handleClick = () => {
+    history.push("/seeall");
+  };
   return (
     <ScrollAnimation
       animateIn={css.fadeIn}
@@ -23,14 +30,14 @@ const LastAdded = (props) => {
         <LastAddCard zurag={f4} />
 
         <button className={css.plusButton}>
-          <AiOutlinePlusCircle className={css.plusIcon} />
+          <AiOutlinePlusCircle onClick={props.open} className={css.plusIcon} />
           <p>Олдвор нэмэх</p>
         </button>
       </div>
 
       <div className={css.seeAll}>
         <p className={css.text}>Бүх олдворыг харахыг хүсвэл энд дарна уу.</p>
-        <HiArrowCircleDown className={css.myIcon} />
+        <HiArrowCircleDown className={css.myIcon} onClick={handleClick} />
       </div>
     </ScrollAnimation>
   );

@@ -29,9 +29,19 @@ const HomePage = (props) => {
   const close = () => {
     setDisplay(false);
   };
-
+  const open = () => {
+    setDisplay(true);
+  };
   return (
     <div className={css.Container}>
+      <Modal
+        isOpen={display}
+        shouldCloseOnOverlayClick={false}
+        onRequestClose={() => setDisplay(false)}
+        style={customStyles}
+      >
+        <AddModal close={close} />
+      </Modal>
       <div className={css.main}>
         <Main />
       </div>
@@ -56,7 +66,7 @@ const HomePage = (props) => {
         <BodyText />
       </div>
       <div className={css.LastAdded}>
-        <LastAdded />
+        <LastAdded open={open} />
       </div>
 
       <div className={css.Contact}>
