@@ -29,51 +29,43 @@ const HomePage = (props) => {
   const close = () => {
     setDisplay(false);
   };
+
   return (
-    <Fragment>
-      <div className={css.Container}>
-        <div className={css.main}>
-          <Main />
-        </div>
-        <div className={css.Nav}>
-          <Navbar />
-        </div>
-
-        <div className={css.layer}>
-          <p className={css.middleText}>
-            Монгол улсын шинжлэх ухааны академи <br /> Палеонтологийн хүрээлэн
-          </p>
-          <p className={css.san}>бүртгэлийн нэгдсэн сан</p>
-          <Link to="loginpage">
-            <button className={css.Bttn}>Нэвтрэх</button>
-          </Link>
-        </div>
-
-        <div className={css.Category}>
-          <Category />
-        </div>
-        <div className={css.BodyText}>
-          <BodyText />
-        </div>
-        <div className={css.LastAdded}>
-          <LastAdded />
-          <Modal
-            isOpen={display}
-            shouldCloseOnOverlayClick={false}
-            onRequestClose={() => setDisplay(false)}
-            style={customStyles}
-          >
-            <AddModal close={close} />
-          </Modal>
-        </div>
-        <div className={css.Contact}>
-          <Contact />
-        </div>
-        <div className={css.footer}>
-          <Footer />
-        </div>
+    <div className={css.Container}>
+      <div className={css.main}>
+        <Main />
       </div>
-    </Fragment>
+      <div className={css.Nav}>
+        <Navbar />
+      </div>
+
+      <div className={css.layer}>
+        <p className={css.middleText}>
+          Монгол улсын шинжлэх ухааны академи <br /> Палеонтологийн хүрээлэн
+        </p>
+        <p className={css.san}>бүртгэлийн нэгдсэн сан</p>
+        <Link to="loginpage">
+          <button className={css.Bttn}>Нэвтрэх</button>
+        </Link>
+      </div>
+
+      <div className={css.Category}>
+        <Category />
+      </div>
+      <div className={css.BodyText}>
+        <BodyText />
+      </div>
+      <div className={css.LastAdded}>
+        <LastAdded />
+      </div>
+
+      <div className={css.Contact}>
+        <Contact />
+      </div>
+      <div className={css.footer}>
+        <Footer />
+      </div>
+    </div>
   );
 };
 export default HomePage;
