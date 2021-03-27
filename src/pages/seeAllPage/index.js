@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NavbarSeeAll from "../../component/NavBarSeeAll";
 import css from "./style.module.css";
 import Card from "../../component/Card";
