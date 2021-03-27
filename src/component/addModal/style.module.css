@@ -57,13 +57,13 @@
   margin-top: 1rem;
   margin-right: 3rem;
 }
-button:active {
+.button:active {
   background-color: #00d1b2;
 }
-button:focus {
+.button:focus {
   outline: none;
 }
-button:hover {
+.button:hover {
   background-color: #0aa58e;
   transition: 0.2s;
 }
