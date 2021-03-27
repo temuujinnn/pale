@@ -178,5 +178,5 @@
   color: #0085bf;
   transition: 0.3s;
   margin-top: 0px;
-  padding: 5%;
+  box-shadow: none;
 }

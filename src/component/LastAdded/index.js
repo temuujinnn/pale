@@ -21,8 +21,8 @@ const LastAdded = (props) => {
         <LastAddCard zurag={f2} />
         <LastAddCard zurag={f3} />
         <LastAddCard zurag={f4} />
+
         <button className={css.plusButton}>
-          {" "}
           <AiOutlinePlusCircle className={css.plusIcon} />
           <p>Олдвор нэмэх</p>
         </button>
