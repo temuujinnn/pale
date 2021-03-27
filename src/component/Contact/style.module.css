@@ -1,18 +1,19 @@
 .Container {
   display: flex;
-  height: 30vh;
+
+  height: auto;
+
+  height: 30%;
   font-size: 2rem;
   justify-content: space-evenly;
   width: 100%;
 }
 .garchig {
   font-size: 2.2rem;
-  padding-top: 1.2vw;
   color: #363636;
 }
 .text {
   font-size: 1.7rem;
-  padding-top: 0.2vw;
 }
 .holboos {
   width: 33%;

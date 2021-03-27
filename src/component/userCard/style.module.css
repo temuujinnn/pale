@@ -1,0 +1,19 @@
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+.Text {
+  font-size: 2rem;
+  width: 16.6%;
+}
+.Text1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.7rem;
+  width: 16.6%;
+}

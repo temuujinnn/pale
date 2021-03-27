@@ -1,10 +1,10 @@
 .Container {
-  width: 50%;
-  height: 35vh;
+  width: 80%;
+  height: 35%;
   margin: auto;
 }
 .textBody {
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 10vh;
+  padding: 10vh;
 }

@@ -3,8 +3,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Logo from "./component/Logo";
 import HomePage from "./pages/homePage";
 import LoginPage from "./pages/loginPage";
-import RegisterPage from "./pages/registerPage";
-import SignUpPage from "./pages/signupPage";
+import LastAdded from "./component/LastAdded";
+import Contact from "./component/Contact";
+import AdminPanel from "./pages/adminPanel";
+import LoginInput from "./component/loginInput";
+import SeeAll from "./pages/seeAllPage";
 
 function App() {
   return (
@@ -12,9 +15,12 @@ function App() {
       <BrowserRouter>
         <Route component={HomePage} path="/" exact />
         <Route component={LoginPage} path="/loginpage" />
-        <Route component={RegisterPage} path="/registerpage" />
-        <Route component={SignUpPage} path="/signuppage" />
+        <Route component={LastAdded} path="/lastadded" />
+        <Route component={AdminPanel} path="/adminpanel" />
         <Route component={Logo} path="/logo" />
+        <Route component={Contact} path="/contact" />
+        <Route component={LoginInput} path="/lgninput" />
+        <Route component={SeeAll} path="/seeall" />
       </BrowserRouter>
     </Fragment>
   );

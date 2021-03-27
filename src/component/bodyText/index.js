@@ -2,7 +2,7 @@ import React from "react";
 import css from "./style.module.css";
 const BodyText = () => {
   return (
-    <div className={css.Container}>
+    <div className={css.Container} id="bodytext">
       <div className={css.textBody}>
         Монгол улсын шинжлэх ухааны академийн Палеонтологийн хүрээлэнгийн
         бүртгэлийн санд 956 төрлийн үлэг гүрвэл, 811 төрлийн шувуу, 455 төрлийн
