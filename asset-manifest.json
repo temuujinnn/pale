@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pale/static/css/main.e840dab1.chunk.css",
-    "main.js": "/pale/static/js/main.885b8508.chunk.js",
-    "main.js.map": "/pale/static/js/main.885b8508.chunk.js.map",
-    "runtime-main.js": "/pale/static/js/runtime-main.0570e3e1.js",
-    "runtime-main.js.map": "/pale/static/js/runtime-main.0570e3e1.js.map",
-    "static/js/2.0d63ebd4.chunk.js": "/pale/static/js/2.0d63ebd4.chunk.js",
-    "static/js/2.0d63ebd4.chunk.js.map": "/pale/static/js/2.0d63ebd4.chunk.js.map",
-    "static/js/3.dd94d303.chunk.js": "/pale/static/js/3.dd94d303.chunk.js",
-    "static/js/3.dd94d303.chunk.js.map": "/pale/static/js/3.dd94d303.chunk.js.map",
+    "main.css": "/pale/static/css/main.f9759ee6.chunk.css",
+    "main.js": "/pale/static/js/main.3c5fdb15.chunk.js",
+    "main.js.map": "/pale/static/js/main.3c5fdb15.chunk.js.map",
+    "runtime-main.js": "/pale/static/js/runtime-main.77363d5a.js",
+    "runtime-main.js.map": "/pale/static/js/runtime-main.77363d5a.js.map",
+    "static/js/2.b87b7538.chunk.js": "/pale/static/js/2.b87b7538.chunk.js",
+    "static/js/2.b87b7538.chunk.js.map": "/pale/static/js/2.b87b7538.chunk.js.map",
+    "static/js/3.178c54b9.chunk.js": "/pale/static/js/3.178c54b9.chunk.js",
+    "static/js/3.178c54b9.chunk.js.map": "/pale/static/js/3.178c54b9.chunk.js.map",
     "index.html": "/pale/index.html",
-    "static/css/main.e840dab1.chunk.css.map": "/pale/static/css/main.e840dab1.chunk.css.map",
-    "static/js/2.0d63ebd4.chunk.js.LICENSE.txt": "/pale/static/js/2.0d63ebd4.chunk.js.LICENSE.txt",
+    "static/css/main.f9759ee6.chunk.css.map": "/pale/static/css/main.f9759ee6.chunk.css.map",
+    "static/js/2.b87b7538.chunk.js.LICENSE.txt": "/pale/static/js/2.b87b7538.chunk.js.LICENSE.txt",
     "static/media/c7.8cc78494.png": "/pale/static/media/c7.8cc78494.png",
     "static/media/f1.f214d66b.jpg": "/pale/static/media/f1.f214d66b.jpg",
     "static/media/f2.93a5e3c8.jpg": "/pale/static/media/f2.93a5e3c8.jpg",
@@ -26,9 +26,9 @@
     "static/media/three-dots-svgrepo-com.47158f33.svg": "/pale/static/media/three-dots-svgrepo-com.47158f33.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0570e3e1.js",
-    "static/js/2.0d63ebd4.chunk.js",
-    "static/css/main.e840dab1.chunk.css",
-    "static/js/main.885b8508.chunk.js"
+    "static/js/runtime-main.77363d5a.js",
+    "static/js/2.b87b7538.chunk.js",
+    "static/css/main.f9759ee6.chunk.css",
+    "static/js/main.3c5fdb15.chunk.js"
   ]
 }
