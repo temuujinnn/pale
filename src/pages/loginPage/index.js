@@ -56,7 +56,6 @@ const LoginPage = () => {
         ПАЛЕОНТОЛОГИЙН ХҮРЭЭЛЭН © 2021. Бүх эрх хуулиар хамгаалагдсан.
       </div>
     </>
-
   );
 };
 export default LoginPage;
