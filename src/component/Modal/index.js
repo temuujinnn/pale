@@ -1,9 +1,9 @@
 import React from "react";
 import css from "./style.module.css";
-import Select from "react-dropdown-select";
 const Modal = (props) => {
   return (
     <div className={css.Container}>
+
       <div className={css.ModalBackdrop}>
         <div className={css.ModalBox}>
         <div className={css.inputPass}>
@@ -51,6 +51,11 @@ const Modal = (props) => {
           </button>
         </div>
       </div>
+
+      <button type="submit" onClick={props.close}>
+        Буцах
+      </button>
+
     </div>
   );
 };
