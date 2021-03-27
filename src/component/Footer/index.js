@@ -6,7 +6,7 @@ const Footer = () => {
       {/* <div className={css.line}></div> */}
       <div className={css.text}>
         ПАЛЕОНТОЛОГИЙН ХҮРЭЭЛЭН <strong>© 2021</strong>. Бүх эрх хуулиар
-        хамгаалагдсан.
+        хамгаалагдсан. temka is comeback
       </div>
     </div>
   );
