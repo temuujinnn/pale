@@ -1,0 +1,10 @@
+.Container {
+  width: 80%;
+  height: 35%;
+  margin: auto;
+}
+.textBody {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10vh;
+}

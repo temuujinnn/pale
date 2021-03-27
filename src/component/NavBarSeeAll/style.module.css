@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Container {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* background-color: #f9f9f9; */
+  background-color: white;
+}
+.Logo {
+  justify-content: start;
+  padding-left: 0.8vw;
+  padding-top: 0.8vh;
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6vw;
+  font-size: 3rem;
+}
+.search :focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+}
+.input {
+  width: 15vw;
+  height: 40%;
+  padding: 1.2vh;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  padding: 1vh;
+  padding-bottom: 0.2vh;
+}
+.button {
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  background-color: white;
+  margin-left: 0.2vw;
+  transition: 0.3s;
+}
+.button:active {
+  margin-top: 0.8vh;
+  transition: 0.3s;
+}
+.button:hover {
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+  transition: 0.3s;
+}

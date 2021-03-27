@@ -1,0 +1,100 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.Container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.Nav {
+  width: 100%;
+  margin-top: -10px;
+}
+.box {
+  width: 70vw;
+  height: 75vh;
+  background-color: #f9f9f9;
+  display: flex;
+
+  flex-direction: column;
+  margin: auto;
+  margin-top: 3vh;
+  border: 1px solid black;
+}
+.TopContainer {
+  font-size: 4rem;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
+  width: 100%;
+  height: 10%;
+}
+.searchInput {
+  font-family: FontAwesome;
+  width: 45vw;
+  height: 5vh;
+  padding: 1vh;
+  border-radius: 1vh;
+  border: 1px solid gray;
+}
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+}
+.Bttn {
+  width: 10vw;
+  height: 5vh;
+  background-color: #00d1b2;
+  border: 0.5px solid #75f3e0;
+  color: white;
+  border-radius: 1vh;
+  transition: 0.2s;
+}
+
+.Bttn:hover {
+  background-color: #0aa58e;
+  transition: 0.2s;
+}
+
+.Bttn:active {
+  background-color: #00d1b2;
+}
+.Bttn:focus {
+  outline: none;
+}
+.restart {
+}
+
+.img {
+  width: 3vw;
+  height: 2vh;
+}
+.img:hover {
+  background-color: green;
+}
+.Dot {
+  width: 1.5vw;
+  height: 2vh;
+}
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+
+.Text {
+  font-size: 2rem;
+  width: 16.6%;
+  padding-top: 1vh;
+}
+.Text1 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.7rem;
+  width: 16.6%;
+}
