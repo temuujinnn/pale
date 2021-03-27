@@ -15,11 +15,7 @@ function App() {
 
         <Route component={AdminPanel} path="/adminpanel" />
         <Route component={SeeAll} path="/seeall" />
-
-        <Route component={RegisterPage} path="/registerpage" />
-        <Route component={SignUpPage} path="/signuppage" />
         <Route component={Logo} path="/logo" />
-
       </BrowserRouter>
     </Fragment>
   );
