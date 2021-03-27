@@ -1,7 +1,7 @@
 .Container {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   height: 50%;
   margin: auto;
   font-size: 2rem;
@@ -147,6 +147,36 @@
   opacity: 1;
   margin-top: 2vh;
 }
-.text:hover {
-  opacity: 1;
+
+.plusButton {
+  width: 18%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: none;
+  border-radius: 5px;
+  color: #0085bf;
+  transition: 0.3s;
+  font-size: 2.2rem;
+  border: 0.5px solid #0085bf;
+}
+.plusButton:focus {
+  outline: none;
+}
+
+.plusIcon {
+  width: 40%;
+  height: 40%;
+}
+.plusButton:hover {
+  box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
+  transition: 0.3s;
+
+  cursor: pointer;
+  color: #04445f;
+}
+.plusButton:active {
+  color: #0085bf;
+  transition: 0.3s;
+  margin-top: 0px;
+  padding: 5%;
 }
