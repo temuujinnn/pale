@@ -10,16 +10,12 @@ function App() {
   return (
     <Fragment>
       <BrowserRouter>
-        <Route component={HomePage} path="/" exact />
         <Route component={LoginPage} path="/loginpage" />
 
         <Route component={AdminPanel} path="/adminpanel" />
         <Route component={SeeAll} path="/seeall" />
-<<<<<<< HEAD
-=======
-
->>>>>>> 63c7e8d3381dea4418aeaa3949d652d4b0010597
         <Route component={Logo} path="/logo" />
+        <Route component={HomePage} path="/" exact />
       </BrowserRouter>
     </Fragment>
   );
