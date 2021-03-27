@@ -3,6 +3,7 @@ import css from "./style.module.css";
 const AddModal = (props) => {
   return (
     <div className={css.Container}>
+      <h3 className={css.text}>Олдвор Бүртгэх</h3>
       <form className={css.ModalBox}>
         <label>Нэгдсэн Дугаар:</label>
         <input className={css.input} type="text"></input>
@@ -44,9 +45,14 @@ const AddModal = (props) => {
         <input className={css.input} type="text"></input>
         <label className={css.label}>Нэмэлт тайлбар:</label>
         <input className={css.input} type="text"></input>
-        <button type="submit" onClick={props.close}>
-          Буцах
-        </button>
+        <div className={css.buttonContainer}>
+          <button className={css.button} type="submit" onClick={props.close}>
+            хадгалах
+          </button>
+          <button className={css.button} type="submit" onClick={props.close}>
+            Буцах
+          </button>
+        </div>
       </form>
     </div>
   );

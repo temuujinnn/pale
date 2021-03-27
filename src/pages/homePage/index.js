@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { useState } from "react";
 import Navbar from "../../component/Navbar";
 import Main from "../../component/main";
@@ -25,7 +25,7 @@ const customStyles = {
 };
 
 const HomePage = (props) => {
-  const [display, setDisplay] = useState(true);
+  const [display, setDisplay] = useState(false);
   const close = () => {
     setDisplay(false);
   };
