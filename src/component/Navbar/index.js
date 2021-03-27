@@ -3,6 +3,7 @@ import css from "./style.module.css";
 import NavItem from "../../component/NavbarItem";
 import Logo from "../Logo";
 import { Link } from "react-scroll";
+import { CgProfile } from "react-icons/cg";
 const Navbar = () => {
   return (
     <div>

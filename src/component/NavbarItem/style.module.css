@@ -1,6 +1,7 @@
 .Container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-evenly;
   cursor: pointer;
 }
@@ -72,4 +73,29 @@
   text-shadow: 0.5px 0.5px 5px #9085ff;
   margin-top: 0px;
   transition: 0.1s;
+}
+.profileContainer {
+  width: 2.7vw;
+  height: 6%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileIcon {
+  height: 60%;
+  width: 100%;
+
+  color: #7568fa;
+  transition: 0.2s;
+}
+.profileIcon:hover {
+  color: #5c4ef1;
+  transition: 0.2s;
+}
+
+.profileIcon:active {
+  transition: 0.2s;
+  color: #211980;
 }
