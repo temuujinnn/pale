@@ -15,6 +15,10 @@ function App() {
 
         <Route component={AdminPanel} path="/adminpanel" />
         <Route component={SeeAll} path="/seeall" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 63c7e8d3381dea4418aeaa3949d652d4b0010597
         <Route component={Logo} path="/logo" />
       </BrowserRouter>
     </Fragment>
