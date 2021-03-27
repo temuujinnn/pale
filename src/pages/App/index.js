@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Logo from "./component/Logo";
-import HomePage from "./pages/homePage";
-import LoginPage from "./pages/loginPage";
-import AdminPanel from "./pages/adminPanel";
-import SeeAll from "./pages/seeAllPage";
+import Logo from "../../component/Logo";
+import HomePage from "../homePage";
+import LoginPage from "../loginPage";
+import AdminPanel from "../adminPanel";
+import SeeAll from "../seeAllPage";
 
 function App() {
   return (

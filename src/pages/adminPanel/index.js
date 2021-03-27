@@ -21,7 +21,7 @@ const customStyles = {
     boxShadow: "0 0 10px rgb(0, 0, 0, 0.25)",
   },
 };
-// Modal.setAppElement("#");
+Modal.setAppElement("#root");
 const AdminPanel = (props) => {
   const [display, setDisplay] = useState(false);
   const close = () => {

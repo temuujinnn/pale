@@ -20,19 +20,19 @@ const dataNer = [
     name: "urnaa",
   },
   {
-    id: 4,
+    id: 5,
     name: "urnaa",
   },
   {
-    id: 4,
+    id: 6,
     name: "urnaa",
   },
   {
-    id: 4,
+    id: 7,
     name: "urnaa",
   },
   {
-    id: 4,
+    id: 8,
     name: "urnaa",
   },
 ];
@@ -48,7 +48,7 @@ const SeeAll = (props) => {
           {dataNer.map((el, ind) => {
             return (
               <div className={css.item}>
-                <Card key="ind" ner={el.name} />
+                <Card key={el} ner={el.name} />
               </div>
             );
           })}

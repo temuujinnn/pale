@@ -1,6 +1,5 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-
 import LastAddCard from "../LastAddCard";
 import css from "./style.module.css";
 import f1 from "../../img/f1.jpg";
@@ -29,8 +28,8 @@ const LastAdded = (props) => {
         <LastAddCard zurag={f3} />
         <LastAddCard zurag={f4} />
 
-        <button className={css.plusButton}>
-          <AiOutlinePlusCircle onClick={props.open} className={css.plusIcon} />
+        <button onClick={props.open} className={css.plusButton}>
+          <AiOutlinePlusCircle className={css.plusIcon} />
           <p>Олдвор нэмэх</p>
         </button>
       </div>
