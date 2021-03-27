@@ -39,21 +39,22 @@ const dataNer = [
 
 const SeeAll = (props) => {
   return (
-    <div className={css.Container}>
+    <>
       <div className={css.Nav}>
         <NavbarSeeAll />
       </div>
-
-      <div className={css.box}>
-        {dataNer.map((el, ind) => {
-          return (
-            <div className={css.item}>
-              <Card key="ind" ner={el.name} />
-            </div>
-          );
-        })}
+      <div className={css.Container}>
+        <div className={css.box}>
+          {dataNer.map((el, ind) => {
+            return (
+              <div className={css.item}>
+                <Card key="ind" ner={el.name} />
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 export default SeeAll;
