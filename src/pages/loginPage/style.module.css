@@ -1,6 +1,164 @@
-.Container {
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.sdaRight {
+  width: 13vw;
+  height: 80vh;
+  background-color: #f9f9f9;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.sdaLeft {
+  width: 13vw;
+  height: 80vh;
+  background-color: #f9f9f9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.img {
+  width: 60vw;
+  height: 80vh;
+}
+.imageContainer {
   display: flex;
-  width: 80%;
-  height: 80%;
-  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 5px;
+}
+.layer {
+  width: 60vw;
+  height: 80vh;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  padding: 10px 10px;
+
+  height: 100px;
+  margin-left: -10vw;
+}
+.text {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.form {
+  height: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-right: -8vw;
+}
+.loginWindow {
+  height: 50vh;
+  width: 25vw;
+  margin-right: 6vw;
+  background-color: white;
+  box-shadow: 2px 2px 5px gray, -2px 0px 5px gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vh 2vh;
+}
+.nevtreh {
+  margin-right: 6vw;
+  margin-bottom: 1vh;
+  font-size: 3rem;
+  width: 25vw;
+}
+.input {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 1.5rem;
+  width: 100%;
+  font-family: FontAwesome;
+  margin-top: 1vh;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(196, 195, 195);
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+}
+.input::placeholder {
+  color: gray;
+  font-size: 1.4rem;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1vh;
+  font-size: 2rem;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputName {
+  width: 100%;
+}
+.inputPass {
+  width: 100%;
+  margin-top: 2vh;
+}
+.small {
+  margin-left: 0.5vw;
+}
+.button {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  margin-top: 2.5vh;
+  background-color: #00d1b2;
+  border-radius: 2vw;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid #75f3e0;
+}
+.button:focus {
+  outline: none;
+}
+.button:hover {
+  background-color: #0aa58e;
+  transition: 0.2s;
+}
+.button:active {
+  background-color: #00d1b2;
+}
+.inputName {
+  margin-top: 2vh;
+}
+.footerText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  top: 94vh;
+  bottom: 4vh;
+  font-size: 1.4rem;
+  color: #363636a6;
+}
+.checkbox{
+  font-size: 2rem;
 }
