@@ -4,13 +4,11 @@
   text-align: center;
   width: 100%;
   justify-content: space-evenly;
+  height: 2vh;
   border-bottom: 1px solid black;
+  align-items: center;
 }
 
-.Text {
-  font-size: 2rem;
-  width: 16.6%;
-}
 .Text1 {
   display: flex;
   justify-content: space-evenly;
