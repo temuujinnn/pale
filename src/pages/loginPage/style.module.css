@@ -21,33 +21,6 @@
 .imageContainer {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
-  /* font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
-}
-  
-
-.naba{
-  /* display: flex; */
-  position: absolute;
-  top:10%;
-}
-.Container {
-  display: flex;
-  width: 80vw;
-  height: 80vh;
-  flex-direction: column;
-}
-.img{
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  top: 10%;
-}
-.form{
-  background-color:white;
-  box-shadow: 1px 2px 1px 1px #cecdcd;
-  padding: 1rem;
-=======
   align-items: center;
   height: 100vh;
   border-radius: 5px;
@@ -78,61 +51,11 @@
 }
 .form {
   height: 260px;
->>>>>>> 80fca2820348758b72b2103bf53a81a2965370c9
   display: flex;
   align-items: flex-end;
   justify-content: center;
   flex-direction: column;
-<<<<<<< HEAD
-  margin: auto;
-  margin-left: 40rem;
-  width: 25vw;
-  height: 50vh;
-}
 
-.section{
-  height: 90%;
-  display: flex;
-}
-
-
-.form p{
-  color: #363636;
-  font-size: 3rem;
-  margin-top:2rem ;
-  margin-bottom: 2rem;
-}
-.p{
-  color: #4a4a4a;
-  font-size: 2rem;
-  margin: auto;
-}
-b{
-  font-size: 2rem;
-  color: #363636;
-  margin-left: 0.5rem;
-}
-.input{
-  font-size: 2rem;
-  margin: 0.5rem;
-  width: 30rem;
-  height: 4rem;
-  border: 1px solid transparent;
-  border-color: #dbdbdb;
-}
-
-.logo{
-  margin: 2rem;
-}
-
-.Link{
-  background-color:aquamarine;
-  text-decoration: none;
-  width: 9.5rem;
-  padding: 1rem;
-  border-radius: 3rem;
-  font-size: 2rem;
-=======
   margin-right: -8vw;
 }
 .loginWindow {
@@ -235,7 +158,6 @@ b{
   bottom: 4vh;
   font-size: 1.4rem;
   color: #363636a6;
->>>>>>> 80fca2820348758b72b2103bf53a81a2965370c9
 }
 .checkbox{
   font-size: 2rem;
