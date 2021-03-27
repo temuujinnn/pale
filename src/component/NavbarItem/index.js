@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./style.module.css";
 import { Link } from "react-scroll";
+import { CgProfile } from "react-icons/cg";
 const NavItem = () => {
   return (
     <div className={css.Container}>
@@ -44,6 +45,9 @@ const NavItem = () => {
       >
         Холбоо барих
       </Link>
+      <div className={css.profileContainer}>
+        <CgProfile className={css.profileIcon} />
+      </div>
     </div>
   );
 };
