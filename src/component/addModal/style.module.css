@@ -40,3 +40,8 @@
   padding-top: 1vh;
   padding: 1vh;
 }
+.input :active {
+  box-shadow: 2px 2px 5px #0085bf, -2px -2px 5px #0085bf;
+  transition: 0.3s;
+  margin-top: 0px;
+}
