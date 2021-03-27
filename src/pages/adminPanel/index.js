@@ -16,8 +16,9 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    width: "60%",
+    width: "50%",
     height: "80%",
+    boxShadow: "0 0 10px rgb(0, 0, 0, 0.25)",
   },
 };
 // Modal.setAppElement("#");
