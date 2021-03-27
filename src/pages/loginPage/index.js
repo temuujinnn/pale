@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import css from "./style.module.css";
-
 import Img from "../../img/login.jpg";
 import Logo from "../../component/Logo";
-import LoginInput from "../../component/loginInput";
 
 const LoginPage = () => {
   return (
@@ -56,7 +54,6 @@ const LoginPage = () => {
         ПАЛЕОНТОЛОГИЙН ХҮРЭЭЛЭН © 2021. Бүх эрх хуулиар хамгаалагдсан.
       </div>
     </>
-
   );
 };
 export default LoginPage;
