@@ -6,6 +6,7 @@ import f2 from "../../img/f2.jpg";
 import f3 from "../../img/f3.jpg";
 import f4 from "../../img/f4.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
+import { HiArrowCircleDown } from "react-icons/hi";
 const LastAdded = (props) => {
   return (
     <ScrollAnimation
@@ -18,6 +19,11 @@ const LastAdded = (props) => {
         <LastAddCard zurag={f2} />
         <LastAddCard zurag={f3} />
         <LastAddCard zurag={f4} />
+      </div>
+
+      <div className={css.seeAll}>
+        <p className={css.text}>Бүх олдворыг харахыг хүсвэл энд дарна уу.</p>
+        <HiArrowCircleDown className={css.myIcon} />
       </div>
     </ScrollAnimation>
   );

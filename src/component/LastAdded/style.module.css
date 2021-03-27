@@ -111,3 +111,42 @@
     opacity: 0;
   }
 }
+.seeAll {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myIcon {
+  height: 150%;
+  width: auto;
+  margin-bottom: -2vh;
+  color: #0085bf;
+  transition: 0.2s;
+}
+.myIcon:hover {
+  color: #04445f;
+  transition: 0.2s;
+  height: 150%;
+
+  width: auto;
+}
+.myIcon:active {
+  color: #0085bf;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 10vh;
+  width: auto;
+  opacity: 1;
+  margin-top: 2vh;
+}
+.text:hover {
+  opacity: 1;
+}

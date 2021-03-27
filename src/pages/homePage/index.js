@@ -38,6 +38,7 @@ const HomePage = () => {
       <div className={css.LastAdded}>
         <LastAdded />
       </div>
+
       <div className={css.Contact}>
         <Contact />
       </div>
