@@ -30,7 +30,7 @@ const LoginPage = () => {
                 <strong className={css.label}> Нууц үг</strong>
                 <input
                   className={css.input}
-                  type="text"
+                  type="password"
                   placeholder=" &#61475;  Та нэвтрэх нууц үгээ оруулна уу"
                 />
               </div>
