@@ -4,7 +4,7 @@
   text-align: center;
   width: 100%;
   justify-content: space-evenly;
-  height: 2vh;
+  height: 4vh;
   border-bottom: 1px solid black;
   align-items: center;
 }
@@ -12,6 +12,9 @@
 .Text1 {
   display: flex;
   justify-content: space-evenly;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   width: 16.6%;
+}
+.TextEmail {
+  font-size: 1.5rem;
 }
