@@ -7,7 +7,7 @@ const Logo = () => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push("/");
+    history.push("/homepage");
   };
   return (
     <>
