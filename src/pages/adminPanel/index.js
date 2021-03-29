@@ -8,6 +8,7 @@ import UserCard from "../../component/userCard";
 import ModalWindow from "../../component/Modal";
 import Modal from "react-modal";
 import { Fragment } from "react";
+import { BiEditAlt } from "react-icons/bi";
 const customStyles = {
   content: {
     left: "50%",
@@ -63,7 +64,7 @@ const AdminPanel = (props) => {
               <img className={css.img} src={ResetIc} alt="icon" />
             </div>
             <div className={css.option}>
-              <img className={css.Dot} src={Dot} alt="dot" />
+              <BiEditAlt className={css.edit} />
             </div>
           </div>
           <div className={css.middleContainer}>

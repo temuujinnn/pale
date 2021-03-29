@@ -110,3 +110,24 @@
   font-size: 1.7rem;
   width: 16.6%;
 }
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.edit {
+  height: 3.5rem;
+  width: auto;
+  padding: 0.5rem;
+}
+.option:hover {
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+  transition: 0.2s;
+  margin-top: -4px;
+}
+.option:active {
+  margin-top: 0;
+  transition: 0.2s;
+}

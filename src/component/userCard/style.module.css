@@ -18,3 +18,16 @@
 .TextEmail {
   font-size: 1.5rem;
 }
+.middleContainerActive {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 4vh;
+  border-bottom: 1px solid black;
+  align-items: center;
+  margin-bottom: 2rem;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
+}
