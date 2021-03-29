@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import css from "./style.module.css";
 const AddModal = (props) => {
+  const [picture, setPicture] = useState(null);
+  const [imgData, setImgData] = useState(null);
+  const onChangePicture = (e) => {
+    if (e.target.files[0]) {
+      console.log("picture: ", e.target.files);
+      setPicture(e.target.files[0]);
+      const reader = new FileReader();
+      reader.addEventListener("load", () => {
+        setImgData(reader.result);
+      });
+      reader.readAsDataURL(e.target.files[0]);
+    }
+  };
   return (
     <div className={css.Container}>
       <form className={css.ModalBox}>
         <h1 className={css.text}>Олдвор Бүртгэх</h1>
         <label> Зураг</label>
         <div className={css.zurag}>
-          <input className={css.fileInput} type="file" />
-          <img className={css.myPreview} alt="ImagePre" />
+          <input
+            onChange={onChangePicture}
+            className={css.fileInput}
+            type="file"
+          />
+          <img className={css.myPreview} src={imgData} />
         </div>
         <label>Нэгдсэн Дугаар:</label>
         <input className={css.input} type="text"></input>
