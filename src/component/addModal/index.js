@@ -5,6 +5,11 @@ const AddModal = (props) => {
     <div className={css.Container}>
       <form className={css.ModalBox}>
         <h1 className={css.text}>Олдвор Бүртгэх</h1>
+        <label> Зураг</label>
+        <div className={css.zurag}>
+          <input className={css.fileInput} type="file" />
+          <img className={css.myPreview} alt="Image Pre" />
+        </div>
         <label>Нэгдсэн Дугаар:</label>
         <input className={css.input} type="text"></input>
         <label>Хүрээний Дугаар:</label>

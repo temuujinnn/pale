@@ -39,9 +39,12 @@
   border-radius: 5px;
   padding-top: 1vh;
   padding: 1vh;
+  border: none;
+  box-shadow: 0.5px 0.5px 3px gray, -0.5px -0.5px 3px gray;
 }
-.input :focus {
+.input:focus {
   outline: none;
+  border: none;
   box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
     -0.5px -0.5px 3px rgb(50, 105, 206);
 }
@@ -68,4 +71,18 @@
   transition: 0.2s;
 }
 .text {
+}
+.zurag {
+  height: 40vh;
+  margin-bottom: 2vh;
+  width: 80%;
+}
+.fileInput {
+  height: 5vh;
+}
+.myPreview {
+  height: 35vh;
+  width: 100%;
+  box-shadow: 0.5px 0.5px 3px rgb(50, 105, 206),
+    -0.5px -0.5px 3px rgb(50, 105, 206);
 }
