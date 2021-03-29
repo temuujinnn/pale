@@ -5,7 +5,6 @@ import { CgProfile } from "react-icons/cg";
 import { useHistory } from "react-router-dom";
 const NavItem = () => {
   let history = useHistory();
-
   const handleClick = () => {
     history.push("/adminpanel");
   };

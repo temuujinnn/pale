@@ -10,10 +10,10 @@ function App() {
   return (
     <Fragment>
       <Switch>
-        <Route path="/loginpage" component={LoginPage} />
+        <Route path="/homepage" component={HomePage} />
         <Route path="/adminpanel" component={AdminPanel} />
         <Route path="/seeall" component={SeeAll} />
-        <Route path="/" exact component={HomePage} />
+        <Route path="/" exact component={LoginPage} />
         <Redirect to="/" />
       </Switch>
     </Fragment>

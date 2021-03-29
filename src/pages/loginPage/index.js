@@ -1,9 +1,14 @@
 import React, { Fragment } from "react";
+import { useHistory } from "react-router-dom";
 import css from "./style.module.css";
 import Img from "../../img/login.jpg";
 import Logo from "../../component/Logo";
 
 const LoginPage = () => {
+  let history = useHistory();
+  const handleClick = () => {
+    history.push("/homepage");
+  };
   return (
     <>
       <div className={css.imageContainer}>
@@ -39,7 +44,9 @@ const LoginPage = () => {
                 <small className={css.small}>Намайг сана</small>
               </div>
               <div className={css.buttonContainer}>
-                <button className={css.button}>Нэвтрэх</button>
+                <button onClick={handleClick} className={css.button}>
+                  Нэвтрэх
+                </button>
               </div>
             </div>
           </div>

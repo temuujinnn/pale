@@ -54,9 +54,6 @@ const HomePage = (props) => {
           Монгол улсын шинжлэх ухааны академи <br /> Палеонтологийн хүрээлэн
         </p>
         <p className={css.san}>бүртгэлийн нэгдсэн сан</p>
-        <Link to="loginpage">
-          <button className={css.Bttn}>Нэвтрэх</button>
-        </Link>
       </div>
 
       <div className={css.Category}>
