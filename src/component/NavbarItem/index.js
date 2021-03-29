@@ -9,7 +9,7 @@ const NavItem = () => {
     history.push("/adminpanel");
   };
   const handleClick1 = () => {
-    history.push("/");
+    history.push("/homepage");
   };
   return (
     <div className={css.Container}>
